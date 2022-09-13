@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+}
+header, footer
+{
+    clear: both;
+}
+header h5{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 0 20px 50px;
+}
+main{
+    padding: 50px;
+}
+section
+{
+    float: left;
+    width: 50%;
+}
+.image{
+    /* width: 80%; */
+
+}
+img{
+    max-width: 80%;
+    /* height: auto; */
+}
+.text
+{
+    padding: 0 50px;
+}
+h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+p{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 30px 60px 60px 0;
+    line-height: 35.54px;
+    letter-spacing: -3.5%;
+}
+div
+{
+    margin-bottom: 100px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    background: #333333;
+    width: 1000px;
+    height: 68px;
+    padding: 20px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20.73px;
+    
+}
+footer h5{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+/* Respnsiveness */
+@media (max-width:768px)  
+{
+    img
+    {
+        max-width: 100%;
+        /* height: auto; */
+    }   
+    section
+    {
+        /* float: left; */
+        width: 100%;
+    }
+    .text
+    {
+        padding: 0;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 48px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 24px;
+        /* padding: 30px 60px 60px 0; */
+        line-height: 35.54px;
+        letter-spacing: -3.5%;
+    }
+}
+@media (max-width:768px)  
+{
+    p{
+        font-weight: 400;
+        font-size: 18px;
+        /* padding: 30px 60px 60px 0; */
+        line-height: 35.54px;
+        letter-spacing: -3.5%;
+    }
+}
+@media (max-width:1020px){
+    h1{
+        font-weight: 700;
+        font-size: 36px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 35.54px;
+        letter-spacing: -3.5%;
+    }
+    img{
+        max-width: 100%;
+    }
+} 
+@media (max-width:1020px){
+    h1{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35.54px;
+        letter-spacing: -3.5%;
+    }
+    img{
+        max-width: 100%;
+       
+    }
+}
